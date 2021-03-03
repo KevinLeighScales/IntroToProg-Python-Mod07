@@ -1,7 +1,16 @@
 # Module07 Website
 --- 
 
-[GitHub Webpage Code CheatSheet](https://github.com/KevinLeighScales/markdown-here/wiki/Markdown-Cheatsheet)
+Kevin Scales
+
+Mar 2, 2021
+
+Introduction to Programming (Python)
+
+Assignment 7
+
+https://github.com/KevinLeighScales/IntroToProg-Python-Mod07
+
 
 # Pickling, Exceptions, and the Worth Encryption Ever
 ## Introduction
@@ -26,23 +35,27 @@ For pickling, the ‘encrypted’ text is just pickled string data written to a 
 
 ## Results
 In the first shot, I open an existing text file and read the contents. Then I save them via pickling in an ‘encrypted’ style.
+
 ![alt text](https://github.com/KevinLeighScales/IntroToProg-Python-Mod07/blob/main/Files/Asgm701.JPG)
 
 
 
 In the second shot, I try to open a file that does not exist. The exception handling takes care of it and allows me to continue by reading in an ‘encrypted’ file as a text file. The results show that it is binary, but it doesn’t hide much.
+
 ![alt text](https://github.com/KevinLeighScales/IntroToProg-Python-Mod07/blob/main/Files/Asgm702.JPG)
  
 
 
 
 Switching to a command prompt, I load the binary as a binary and display the data, much cleaner. I add some information and save it as a new text file. The actual files in Notebook verify the contents. (For the first one, basicfile.txt, it shows the results from the next block below)
+
 ![](https://github.com/KevinLeighScales/IntroToProg-Python-Mod07/blob/main/Files/Asgm703.JPG)
 
 
 
 
 Finally, back in PyCharm, I add some other text and save as a text. The Notebook in the previous figure shows this outcome.
+
 ![](https://github.com/KevinLeighScales/IntroToProg-Python-Mod07/blob/main/Files/Asgm704.JPG)
  
 
